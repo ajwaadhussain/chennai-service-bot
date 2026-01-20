@@ -1,0 +1,14 @@
+# Ignore huge dependency folders
+node_modules/
+dist/
+
+# Ignore secrets and keys
+.env
+
+# Ignore python cache garbage
+__pycache__/
+*.pyc
+
+# Ignore the local database (so users build their own)
+backend/data/index.faiss
+backend/data/chunks.json
